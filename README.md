@@ -1,12 +1,12 @@
-######Customer Personality Segmentation
+### Customer Personality Segmentation
 
 This project applies unsupervised machine learning to segment customers based on their demographics, lifestyle, and purchasing behavior. By understanding the unique traits of each segment, businesses can design personalized marketing strategies, improve customer retention, and allocate resources more effectively.
 
-Project Overview
+### Project Overview
 
 The dataset used contains customer demographic details (age, income, family structure), lifestyle indicators, and purchase data across multiple product categories.
 
-The workflow includes:
+#### The workflow includes:
 
 Data exploration and cleaning – checking for missing values, outliers, and inconsistent entries.
 
@@ -18,7 +18,7 @@ Cluster profiling – analyzing the unique characteristics of each cluster in te
 
 Visualization – creating plots to make cluster insights more interpretable for business users.
 
-Repository Structure
+#### Repository Structure
 
 Learner_Notebook_Full_Code_Version_Customer_Personality_Segmentation.ipynb — full notebook containing EDA, preprocessing, clustering, and insights.
 
@@ -26,7 +26,7 @@ data/ (optional) — place your dataset here.
 
 README.md — documentation for the project.
 
-Features
+#### Features
 
 Exploratory Data Analysis: statistical summaries, visualizations of demographics and purchases.
 
@@ -38,7 +38,7 @@ Profiling: descriptive analysis of clusters to interpret actionable business ins
 
 Visualization: plots for demographics, purchase categories, and cluster distributions.
 
-Installation
+#### Installation
 
 Clone this repository and install the required dependencies:
 
@@ -55,7 +55,7 @@ Otherwise, install manually:
 
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
-Usage
+#### Usage
 
 Open Jupyter Notebook:
 
@@ -66,7 +66,7 @@ Run the notebook Learner_Notebook_Full_Code_Version_Customer_Personality_Segment
 
 Step through each cell to replicate the analysis, clustering, and results.
 
-Results
+#### Results
 
 The clustering analysis produced distinct customer segments that differ in:
 
@@ -76,7 +76,7 @@ Product preferences: spending across categories such as wine, fruits, meat, fish
 
 Shopping behavior: preferred purchasing channels (store, catalog, online).
 
-Business Implications:
+#### Business Implications:
 
 High-income, high-spending customers may be targeted with premium product promotions.
 
@@ -84,7 +84,7 @@ Younger, digital-savvy customers can be approached with online campaigns.
 
 Price-sensitive clusters can be retained through loyalty discounts and catalog promotions.
 
-Next Steps
+### Next Steps
 
 Experiment with other clustering methods (DBSCAN, hierarchical clustering) to validate results.
 
