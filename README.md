@@ -1,4 +1,4 @@
-Customer Personality Segmentation
+######Customer Personality Segmentation
 
 This project applies unsupervised machine learning to segment customers based on their demographics, lifestyle, and purchasing behavior. By understanding the unique traits of each segment, businesses can design personalized marketing strategies, improve customer retention, and allocate resources more effectively.
 
